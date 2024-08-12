@@ -1,6 +1,4 @@
-os.pullEventRaw()
-
-local kernel = require(".sys/kernel.lua")
+os.pullEvent = pullEventRaw
 
 print("Crossline OS")
 
